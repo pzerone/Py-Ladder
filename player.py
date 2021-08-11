@@ -19,13 +19,3 @@ class Plr():
 
          current_position = current_position + die_value
          return (current_position)
-
-
-    def end_move(self, die_value,current_position):
-        self.die_value = die_value
-
-        if current_position + die_value == 100 or current_position + die_value <=100:
-            current_position = current_position + die_value
-        else:
-            current_position = current_position
-        return (current_position)
