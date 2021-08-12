@@ -32,7 +32,6 @@ while True:
         initiator = input(f"{j.name}, press enter to roll dice! ")
         time.sleep(1)
 
-
         rolled = dice.roll()
         print (f"\nDice rolled {rolled}!\n")
         time.sleep(1)
@@ -94,6 +93,7 @@ while True:
                     print(Assets.game_over)
                     time.sleep(1)
                     break
+                    
             #Manages extra roll situations and breaks the iterator if extra roll is not 6
             if rolled == 6:
                 initiator = input(f"{j.name},press enter to roll the extra roll\n")
