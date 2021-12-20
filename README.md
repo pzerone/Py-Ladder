@@ -1,7 +1,7 @@
 # Py-Ladder
 A terminal based snake and ladder game made using python
 
-Requirements: python 3.x
+Requirements: python 3.6+
 
 How to setup:
 
